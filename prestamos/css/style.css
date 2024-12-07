@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Títulos */
+h1 {
+    color: #020202;
+    margin-bottom: 20px;
+}
+
+/* Formulario */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    font-weight: bold;
+}
+
+/* Estilos de alertas */
+.alert {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Mensajes de éxito de SweetAlert */
+.swal2-popup {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Tablas */
+table {
+    margin-top: 20px;
+}
+
+th {
+    background-color: #007bff;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Iconos y botones de acción */
+.btn-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.btn-icon:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para el enlace de "Cancelar" */
+.btn-secondary {
+    margin-left: 10px;
+}
+
